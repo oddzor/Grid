@@ -36,7 +36,6 @@ nav > a {
   margin-inline: 1rem;
 }
 
-
 a,
 a:visited {
   text-decoration: none;
@@ -160,9 +159,11 @@ main button {
   align-items: center;
 }
 
-#section1 button, #section2 button, #section3 button {
-position: relative;
-left: 80%;
+#section1 button,
+#section2 button,
+#section3 button {
+  position: relative;
+  left: 80%;
 }
 
 #section4 {
@@ -299,7 +300,9 @@ footer {
     right: 1%;
   }
 
-  #section1 button, #section2 button, #section3 button {
+  #section1 button,
+  #section2 button,
+  #section3 button {
     left: 1%;
     right: 1%;
   }
@@ -356,13 +359,14 @@ footer {
     padding-bottom: -1.5rem;
   }
 
-
   main button {
     position: relative;
     left: 1%;
   }
 
-  #section1 button, #section2 button, #section3 button {
+  #section1 button,
+  #section2 button,
+  #section3 button {
     left: 1%;
   }
 
@@ -374,12 +378,9 @@ footer {
   button {
     width: 100%;
   }
-
-
-  
 }
 
-@media (min-width: 810px) and (max-width: 1400px) {
+@media (min-width: 768px) and (max-width: 1400px) {
   .page {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -419,7 +420,9 @@ footer {
     left: 90%;
   }
 
-  #section1 button, #section2 button, #section3 button {
+  #section1 button,
+  #section2 button,
+  #section3 button {
     left: 90%;
   }
 
@@ -443,3 +446,4 @@ footer {
     height: 25px;
   }
 }
+
