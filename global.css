@@ -2,7 +2,7 @@ body,
 html {
   font-family: Poppins;
   height: 100vh;
-  background-color: #363636;
+  background-color: #1d1d1d;
 }
 
 .page {
@@ -243,6 +243,10 @@ footer {
       "footer";
   }
 
+  nav a {
+    margin: 1rem 0 1rem 0;
+  }
+
   img {
     padding: 0rem;
     width: 100%;
@@ -446,4 +450,3 @@ footer {
     height: 25px;
   }
 }
-
