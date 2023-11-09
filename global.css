@@ -2,7 +2,8 @@ body,
 html {
   font-family: Poppins;
   height: 100vh;
-  background-color: #1d1d1d;
+  background-color: #262626;
+  color: rgb(197,197,197);
 }
 
 .page {
